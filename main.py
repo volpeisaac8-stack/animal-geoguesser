@@ -167,6 +167,7 @@ while True:
 
             #quitting
             if event.key == pygame.K_ESCAPE:
+                print("Thanks for playing! Your final score was:", total_score)
                 pygame.quit()
                 sys.exit()
 
