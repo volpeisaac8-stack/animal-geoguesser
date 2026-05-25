@@ -249,7 +249,7 @@ while True:
         continue_text = font.render(
             "Press SPACE to continue",
             True,
-            (200,200,200)
+            (0,0,0)
         )
 
         screen.blit(continue_text, (20, 100))
