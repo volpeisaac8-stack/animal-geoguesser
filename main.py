@@ -165,6 +165,11 @@ while True:
                     # back to guessing
                     game_state = "guessing"
 
+            #quitting
+            if event.key == pygame.K_ESCAPE:
+                pygame.quit()
+                sys.exit()
+
     # DRAWING
 
     # draw map
