@@ -1,4 +1,8 @@
 animals = [
+
+    # =========================
+    # MAMMALS
+    # =========================
     "Ailuropoda melanoleuca",
     "Panthera tigris",
     "Panthera leo",
@@ -49,6 +53,22 @@ animals = [
     "Castor canadensis",
     "Lontra canadensis",
     "Capybara hydrochoerus hydrochaeris",
+    "Erinaceus europaeus",
+    "Erinaceus amurensis",
+    "Oryctolagus cuniculus",
+    "Lepus europaeus",
+    "Felis catus",
+    "Felis silvestris",
+    "Lynx lynx",
+    "Lynx rufus",
+    "Puma concolor",
+    "Herpestes ichneumon",
+    "Suricata suricatta",
+    "Dasyurus maculatus",
+
+    # =========================
+    # BIRDS
+    # =========================
     "Aptenodytes forsteri",
     "Aptenodytes patagonicus",
     "Pygoscelis adeliae",
@@ -67,13 +87,23 @@ animals = [
     "Branta canadensis",
     "Phoenicopterus roseus",
     "Pavo cristatus",
-    "Touit batavica",
     "Ara macao",
     "Psittacus erithacus",
     "Strix nebulosa",
     "Archilochus colubris",
     "Ramphastos toco",
     "Melopsittacus undulatus",
+    "Sula nebouxii",
+    "Egretta garzetta",
+    "Ardea cinerea",
+    "Phalacrocorax carbo",
+    "Upupa epops",
+    "Carduelis carduelis",
+    "Turdus merula",
+
+    # =========================
+    # REPTILES & AMPHIBIANS
+    # =========================
     "Chelonia mydas",
     "Dermochelys coriacea",
     "Crocodylus niloticus",
@@ -93,10 +123,17 @@ animals = [
     "Bufo bufo",
     "Dendrobates tinctorius",
     "Ambystoma mexicanum",
+    "Hyla cinerea",
+    "Rhinella marina",
+    "Chamaeleo chamaeleon",
+
+    # =========================
+    # FISH
+    # =========================
     "Carcharodon carcharias",
     "Rhincodon typus",
     "Mobula birostris",
-    "Dolphinus delphis",
+    "Delphinus delphis",
     "Orcinus orca",
     "Tursiops truncatus",
     "Enhydra lutris",
@@ -112,7 +149,13 @@ animals = [
     "Thunnus thynnus",
     "Istiophorus platypterus",
     "Xiphias gladius",
-    "Panulirus argus",
+    "Salmo salar",
+    "Oncorhynchus mykiss",
+    "Pterois volitans",
+
+    # =========================
+    # INSECTS / ARTHROPODS
+    # =========================
     "Danaus plexippus",
     "Papilio machaon",
     "Vanessa atalanta",
@@ -128,5 +171,9 @@ animals = [
     "Musca domestica",
     "Aedes aegypti",
     "Phyllium giganteum",
-    "Mantis religiosa"
+    "Mantis religiosa",
+    "Gryllus campestris",
+    "Periplaneta americana",
+    "Schistocerca gregaria",
+    "Atta cephalotes"
 ]
