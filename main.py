@@ -80,6 +80,8 @@ def check_distance(lat, lon):
 
     total_score += score
 
+    print("Score for this round:", score)
+
     game_state = "results"
 
     
