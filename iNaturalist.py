@@ -32,6 +32,12 @@ def get_random_animal():
     result["taxon"]["name"]
     )
 
+    if (
+        result.get("geojson") is None
+        or len(result.get("photos", [])) == 0
+    ):
+        return get_random_animal()
+
     lat = result["geojson"]["coordinates"][1]
     lon = result["geojson"]["coordinates"][0]
 
