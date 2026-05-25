@@ -24,7 +24,13 @@ def get_random_animal():
 
     result = random.choice(data["results"])
 
-    name = result["taxon"]["preferred_common_name"]
+    if len(data["results"]) == 0:
+        return get_random_animal()
+
+    name = result["taxon"].get(
+    "preferred_common_name",
+    result["taxon"]["name"]
+    )
 
     lat = result["geojson"]["coordinates"][1]
     lon = result["geojson"]["coordinates"][0]
